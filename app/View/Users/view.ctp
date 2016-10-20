@@ -46,6 +46,11 @@
 			<?php echo h($user['User']['modified']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Password'); ?></dt>
+		<dd>
+			<?php echo h($user['User']['password']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">
