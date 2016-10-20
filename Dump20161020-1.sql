@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `vculead` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `vculead`;
 -- MySQL dump 10.13  Distrib 5.7.13, for Linux (x86_64)
 --
 -- Host: localhost    Database: vculead
@@ -121,4 +123,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-10-20 13:10:23
+-- Dump completed on 2016-10-20 13:20:25
