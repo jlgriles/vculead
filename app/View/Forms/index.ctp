@@ -3,7 +3,7 @@
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
+			<th class="none"><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('user_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('type'); ?></th>
 			<th><?php echo $this->Paginator->sort('datesubmitted'); ?></th>
@@ -18,7 +18,7 @@
 			<th><?php echo $this->Paginator->sort('emailsentdate'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th class="actions" class="none"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
 	<tbody>
